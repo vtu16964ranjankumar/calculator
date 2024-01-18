@@ -87,4 +87,7 @@ button:hover{
         margin: 15vh auto;
         width : 90vw;
     }
+    header{
+        column-gap: 10vw;
+    }
 }
