@@ -9,5 +9,6 @@ function clearDisplay() {
     displayId.value = concatenatedString;
 }
 function calculate(){
-  displayId.value = eval(concatenatedString);
+  concatenatedString = eval(concatenatedString);
+  displayId.value = concatenatedString;
 }
