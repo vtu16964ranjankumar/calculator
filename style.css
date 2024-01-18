@@ -22,10 +22,13 @@ body {
 }
 
 header {
-    background-color: maroon;
-    color: whitesmoke;
+    background-color: antiquewhite;
+    color: black;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
+    font-weight: bolder;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 nav h1 {
@@ -38,7 +41,7 @@ main.calculator {
     width: 300px;
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(189, 29, 4, 0.2);
+    box-shadow: 0 0 10px rgb(176, 124, 57);
     overflow: hidden;
 }
 
@@ -63,10 +66,10 @@ button {
     font-size: 18px;
     border: none;
     cursor: pointer;
-    background-color: #f4f4f4;
+    background-color: antiquewhite
     transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #ddd;
+    background-color: rgb(252, 205, 144);
 }
